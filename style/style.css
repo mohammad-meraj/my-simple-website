@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.n-ver{
+    display: flex;
+    list-style: none;
+}
+.item{
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+.item:hover{
+    cursor: pointer;
+    background-color: azure;
+    color: #000;
+    
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("./images/background.png"), linear-gradient(45deg,rgb(8,8,8) ,black);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+button{
+    width: 150px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border:none;
+}
+button:hover{
+    cursor: pointer;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    align-items: center;
+}
+.lady{
+    margin-right: 300px;
+    margin-left: 100px;
+}
+.info{
+    padding: 20px;
+    padding-left: 300px;
+}
+.about{
+    text-align: center;
+    padding-top: 20px;
+}
